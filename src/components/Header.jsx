@@ -29,10 +29,12 @@ function Header() {
         <img src={spaceHeader}/>
         
         <div className="nested">
+          <Link to="/galleries">Galleries</Link>
           <img className="logo" src={nasalogo}/>
           <h3>NASA TV</h3>  
           <div>
             <Link to="/">Home</Link> | <Link to="/about">About Us</Link>
+            | 
           </div>
         </div>
 
